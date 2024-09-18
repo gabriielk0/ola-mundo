@@ -4,7 +4,7 @@ import BotaoPrincipal from "components/Botao Principal";
 
 export default function PostCard({ post }) {
   return (
-    <Link to={`./posts/${post.id}`}>
+    <Link to={`/posts/${post.id}`}>
       <div className={styles.post}>
         <img
           className={styles.capa}
